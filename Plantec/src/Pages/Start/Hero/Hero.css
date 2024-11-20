@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+.hero-container{
+    min-height: 100vh;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(45deg, #4A7C2A, #A8D600, #66C2FF, #FFFFFF);
+   
+    background-size: 400% 400%;
+    animation: animateBackground 10s ease infinite;
+    font-family: "Quicksand", serif;
+}
+
+/* Animação para fazer o degradê se mover */
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero-text{
+ 
+  padding-left: 10rem;
+ text-align: center;
+
+ 
+}
+
+.hero-text h1{
+    font-size: 4rem;
+}
+.hero-text p{
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: #FFFFFF;
+    color: #333333;
+    border-radius: 1.5rem;
+    font-size: 1.3rem;
+    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+/*.btn:hover(){
+    background-color: #FFFFFF;
+    color: #333333;
+}*/

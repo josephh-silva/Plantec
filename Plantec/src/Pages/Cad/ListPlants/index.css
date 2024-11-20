@@ -1,0 +1,46 @@
+.plantsList{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    margin-top: 10rem;
+}
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60%;
+    border: 0.1rem solid  #000000 ;
+    border-radius: 2rem ;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.4);
+    background-color: #000000;
+    color: #ffffff;
+}
+.texts{
+    width: 100%;
+    margin-top: 1rem;
+}
+.texts p{
+    font-size: 1.3rem;
+}
+.texts button{
+    padding: 0.6rem;
+    width: 7rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #2d6a4f;
+    border: none;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: #ffffff;
+}
+.texts button:hover{
+    background-color: #081c15;
+}
+.img img{
+    width: 20rem;
+    border-radius: 2rem
+};

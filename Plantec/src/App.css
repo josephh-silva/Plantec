@@ -1,0 +1,7 @@
+.cad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a5a40;
+    height: 100vh;
+}
